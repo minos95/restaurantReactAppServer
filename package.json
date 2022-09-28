@@ -1,0 +1,20 @@
+{
+  "name": "dishes",
+  "version": "1.0.0",
+  "description": "-JSON server.\r ## Prerequisites\r -install JSON server with 'npm install json-server -g'\r ## Local Development\r - Open the terminal and start server with 'json-server --watch db.json -p 3001 -d 2000'",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minos95/restaurantReactAppServer.git"
+  },
+  "author": "amine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minos95/restaurantReactAppServer/issues"
+  },
+  "homepage": "https://github.com/minos95/restaurantReactAppServer#readme"
+}
