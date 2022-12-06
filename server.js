@@ -6,7 +6,7 @@ const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 server.use(router);
-
+server.use(cors({ origin: "*" }));
 const port = process.env.PORT || 3000;
 
 server.listen(port, () => {
